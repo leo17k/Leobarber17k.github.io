@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700");  
+yo@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700");  
 
 body {  
   font-family: "Nunito", sans-serif;  
@@ -486,7 +486,7 @@ i.mdi.mdi-menu::before {
 @media (min-width: 360px) {  
 .navbar-brand.logo img {
   height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:36%;}
+  margin-left:30%;}
 }   .efe {  
     display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
     justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
@@ -497,7 +497,7 @@ i.mdi.mdi-menu::before {
 @media (min-width: 390px) {  
 .navbar-brand.logo img {
   height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:34%;}
+  margin-left:30%;}
   
   @media (min-width: 820px) {  
     
@@ -523,5 +523,5 @@ i.mdi.mdi-menu::before {
 @media (min-width: 414px) {  
 .navbar-brand.logo img {
   height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:30%;
+  margin-left:40%;
 }
