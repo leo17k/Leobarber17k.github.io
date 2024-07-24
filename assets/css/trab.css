@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700");  
+
+body {  
+  font-family: "Nunito", sans-serif;  
+  overflow-x: hidden;  
+}  
+
+h1, h2, h3, h4, h5, h6 {  
+  font-family: "Montserrat", sans-serif;  
+}  
+
+.efe, .efe2 {  
+  display: flex;
+
+}  
+
+.container2, .container3 {  
+  display: flex;  
+  flex-direction: row;  
+  justify-content: flex-start;  
+  background-color: rgba(32, 29, 29, 0.54);  
+  border-radius: 40px;  
+  width: 97%;  
+  max-width: 100%;  
+  margin: 15px 0 0 6px;  
+}  
+
+.container2 {  
+  height: 100%; /* Añadir punto y coma */  
+  margin-right:10px
+}  
+
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:452%;}
+
+.content2, .content3 {  
+  position: relative;  
+  margin-top: 5%;  
+  margin-left: 5%;  
+  color: white;  
+  margin-right: 20px;  
+}  
+
+.image-container2, .image-container3 {  
+  max-width: 20%; /* Ajustar la imagen al contenedor */  
+  height: auto;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}  
+
+.img-midfade2, .img-midfade3 {  
+  max-width: 100%; /* Ajustar la imagen al contenedor */  
+  height: auto;  
+  margin: auto;  
+}  
+
+h1 {  
+  margin-top: 0; /* Eliminar el margen superior del título */  
+  color: white;  
+}  
+.overlay {  
+     position: fixed;  
+  z-index: -990;  /* Nota: un z-index negativo puede causar problemas, úsalo con precaución */  
+  top: 0;  
+  left: 0;  
+  min-width: 100%;  
+  min-height: 100%;  
+  object-fit: cover; /* Asegura que el video cubra todo el elemento */ 
+    background: rgba(0, 0, 0, 0.5); /* Cambia el valor alfa para ajustar la oscuridad */  
+    z-index: -1; /* Asegura que la superposición esté sobre el video */  
+}  
+
+
+.bg-vid {  
+  position: fixed;  
+  z-index: -990;  /* Nota: un z-index negativo puede causar problemas, úsalo con precaución */  
+  top: 0;  
+  left: 0;  
+  min-width: 100%;  
+  min-height: 100%;  
+  object-fit: cover; /* Asegura que el video cubra todo el elemento */  
+}
+.video-overlay {  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  width: 100%;  
+  height: 100%;  
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */  
+  z-index: -989; /* Asegúrate de que este valor sea mayor que el del video */  
+}
+
+
+
+
+.container {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  margin-top: 10px;  
+}  
+
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin: -0px 50px 10px 100px;
+}  
+
+.nav-item {  
+  margin-right: 15px; /* Espaciado entre elementos de navegación */  
+}  
+
+.nav-link {  
+  text-decoration: none;  
+  color: #333; /* Color del texto de enlaces de navegación */  
+}  
+
+.nav-link:hover {  
+  color: #555; /* Color del texto al pasar el ratón por encima */  
+}  
+
+@media (max-width: 768px) {  
+  .navbar-toggler2 {  
+    display: block; /* Mostrar el botón de menú en tamaños pequeños */  
+
+    box-shadow: none; /* Elimina la sombra */  
+}
+  .navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left: 53%;
+}  
+
+  .navbar-collapse {  
+    display: block; /* Mostrar el menú desplegable en tamaños pequeños */  
+  }  
+  .navbar-nav {  
+    flex-direction: column; /* Alinear en columna en tamaños pequeños */  
+  }  
+  .nav-item {  
+    margin-right: 0; /* Eliminar espaciado entre elementos en tamaños pequeños */  
+    margin-bottom: 10px; /* Espaciado entre elementos en tamaños pequeños */  
+  }  
+}  
+
+.navbar-nav li a {  
+  margin: 0 30px;  
+  padding: 1px 0;  
+  color: rgba(255, 255, 255, 0.48) !important;  
+}  
+
+.navbar-nav li a:before {  
+  content: "";  
+  display: none;  
+}  
+
+.navbar-nav li.active a {  
+  color: #ffcd00 !important;                     
+}  
+
+i.mdi.mdi-menu::before {  
+  color: white;
+  margin-right:25px;
+ 
+}  
+
+@media (max-width: 414px) and (max-height: 896px) {  
+  .efe {  
+    display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
+    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
+  }  
+  .container2 {  
+    margin-top: 30px;  
+  }  
+  .container3 {  
+    margin-top: 10px;  
+  }  
+  .image-container2, .image-container3 {  
+    max-width: 35%; /* Ajustar la imagen al contenedor */   
+  }  
+}  
+
+.modal {  
+  display: none;  
+  position: absolute;  
+  z-index: 1;  
+  padding-top: 100px;  
+  left: 0;  
+  top: 0;  
+  width: 100%;  
+  height: 100%;  
+  overflow: auto;  
+  background-color: rgba(0, 0, 0, 0.9);  
+}  
+
+.modal-content2 {  
+  margin: auto;  
+  display: block;  
+  max-width: 80%;  
+  max-height: 80%;  
+  margin-top: 35%;  
+  margin-right: 12%;  
+}  
+
+.close {  
+  color: white;  
+  font-size: 30px;  
+  font-weight: bold;  
+  position: absolute;  
+  top: 15px;  
+  right: 5px;  
+  cursor: pointer;  
+  margin-right: 5%;    
+}  
+
+.was {  
+  background-color: transparent;  
+  border: 2px solid #fff;  
+  border-radius: 10px;  
+  color: #fff;  
+  letter-spacing: 1px;  
+  transition: all 0.5s;  
+  font-size: 15px;  
+}  
+
+.social_home li a {  
+  font-size: 24px;  
+  color: #ffffff;  
+  display: inline-block;  
+  width: 100px;  
+  text-align: center;  
+  color: white;  
+} /* Asegúrate de cerrar la llave aquí */  
+
+
+@media (min-width: 901px) {  
+  /* Para pantallas grandes, el menú está siempre visible */  
+  .navbar-collapse {  
+    display: flex; /* Asegúrate de que el menú esté siempre visible */  
+    flex-direction: row; /* Alinear los elementos de nav en fila */  
+  }  
+ 
+  .nav-item {  
+    margin-right: 15px; /* Espaciado entre elementos de navegación */  
+  }  
+}
+/* Estilo básico para el botón navbar-toggler2 */  
+.navbar-toggler2 {   font-size: 29px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    background-color: transparent; /* Fondo transparente */  
+    border: none;                  /* Sin borde */  
+    cursor: pointer;               /* Cambia el cursor al pasar el mouse */  
+    padding: 10px;                 /* Espaciado interno */  
+    outline: none;                 /* Sin contorno al hacer clic */  
+}  
+
+/* Estilo del icono de hamburguesa */  
+.navbar-toggler2 .icon {  
+    display: block;                /* Mostrar como bloque para apilar */  
+    width: 30px;                  /* Ancho del icono */  
+    height: 3px;                  /* Altura de cada barra */  
+    margin: 6px 0;                /* Espaciado entre barras */  
+    background-color: #333;       /* Color de cada barra */  
+    transition: 0.3s;             /* Transición suave para el cambio de estado */  
+}  
+
+/* Efecto al pasar el ratón */  
+.navbar-toggler2:hover .icon {  
+    background-color: #555; /* Color de las barras al pasar el ratón */  
+}  
+
+/* Efecto cuando está activo o se ha presionado */  
+.navbar-toggler2:active .icon {  
+    background-color: #777; /* Color de las barras al hacer clic */  
+}
+@media (min-width: 360px) {  
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:39%;}
+}   .efe {  
+    display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
+    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
+  } 
+
+
+@media (min-width: 390px) {  
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:50%;}
+  
+  @media (min-width: 820px) {  
+    
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:4%;}
+
+    @media (min-width: 1024px) {  
+.navbar-brand.logo img {
+  height: 117px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:60%;}
+      .efe {  
+    display: flex; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
+    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
+  } 
+
+      
+      @media (min-width: 768px) {  
+    .navbar-toggler2 {  
+        display: none; /* Ocultar el botón en resoluciones de computadora */  
+    }  
+}  
+      

@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700");  
+
+body {  
+  font-family: "Nunito", sans-serif;  
+  overflow-x: hidden;  
+}  
+.qr-img{
+  height:160px;
+  margin-top:10%;
+}
+.qr{
+  background-color:white;
+  border-radius:40px;
+  margin-top:-100px;
+  position:relative;
+  z-index:4;
+}
+.dos{
+  display:flex;
+  
+}
+
+.leo:hover {  
+    transform: scale(1.1); /* Aumentar el tamaño al 110% */  
+}
+.leo{
+  height:150px;
+margin-right:10px;
+ margin-top:20px;
+  transition: transform 0.3s ease; /* Suavizar la transición */  
+}
+
+.contact {  
+    padding: 20px;  
+}  
+.qr{
+  display:flex;
+}
+.j2{
+ background-color: #ffffff;  
+padding: 5px;  
+  border-radius: 5px;  
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);  
+  max-width: 200px;
+  margin-left:30px;
+}
+footer {  
+    background-color: #333; /* Color de fondo oscuro */  
+    color: white; /* Color del texto blanco */  
+    text-align: center; /* Centrar el texto */  
+    padding: 20px; /* Espaciado interno */  
+    position: relative; /* Para el posicionamiento */  
+    bottom: 0; /* Para colocar el pie de página en la parte baja de la página */  
+    width: 100%; /* Ancho completo */  
+    font-size: 14px; /* Tamaño de la fuente */  
+}  
+
+footer p {  
+    margin: 0; /* Elimina márgenes del párrafo */  
+}
+
+.list-inline {  
+    list-style-type: none; /* Elimina viñetas */  
+    padding: 0;  
+}  
+
+.list-inline-item {  
+    display: inline-block; /* Hace que los elementos se alineen horizontalmente */  
+    margin-right: 15px; /* Espacio entre los enlaces */  
+}  
+
+.list-inline-item a {  
+    text-decoration: none; /* Elimina el subrayado */  
+    font-size: 19px; /* Tamaño de fuente */  
+    color: #f4f4f4; /* Color negro para el texto */  
+    transition: color 0.3s; /* Transición suave para el color al pasar el mouse */  
+}  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #040404;
+    line-height: 1.6;
+}
+
+.content-area {
+    max-width: 800px;
+    margin: 20px auto; /* Añadido margen superior e inferior */
+    padding: 20px;
+  border-radius:20px;
+    background-color: #00000070; /* Fondo blanco */
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%); /* Sombra sutil */
+ 
+}
+
+header {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #FFC107; /* Línea de separación */
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.info {
+    font-size: 18px;
+    color: #ffffffbf;
+}
+
+.incentive, .contacto {
+    margin-bottom: 30px; /* Espacio entre secciones */
+    padding: 15px; /* Relleno en las secciones */
+    color:#ffffffeb;
+    border: 1px solid #9E9E9E; /* Borde sutil */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+.incentive h2, .contacto h3 {
+    color: #ffffff;
+}
+
+.quote {
+    font-style: italic;
+    color: #ffffffed;
+    margin-top: 10px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #25d36600;
+    color: white;
+ border: 3px solid #9E9E9E; /* Borde sutil */
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+  margin-left:25px;
+}
+.as{
+  display:flex;
+}
+.whatsapp-button:hover {
+    background-color: #269a2a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #40dae6;
+}
+.list-inline-item a:hover {  
+    color: #FFC107; /* Cambia el color cuando pasas el cursor, puedes usar otro color que prefieras */  
+}  
+
+.mdi-instagram {  
+    color: #E1306C; /* Color original de Instagram */  
+  
+}  
+
+.mdi-whatsapp {  
+    color: #25D366; /* Color original de WhatsApp */  
+}
+ body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            background-color: #f7f7f7;  
+            color: #333;  
+        }  
+        header {  
+            background-color: #333;  
+            color: white;  
+            padding: 20px;  
+            text-align: center;  
+        }  
+        nav {  
+            margin-top: 10px;  
+        }  
+        nav a {  
+            margin: 0 15px;  
+            color: white;  
+            text-decoration: none;  
+            font-weight: bold;  
+        }  
+        section {
+            padding: 20px;
+        }  
+        footer {  
+            text-align: center;  
+            padding: 1px;  
+            background-color: #000000a6;  
+            color: white;  
+            position: relative;  
+            bottom: 0;  
+            width: 110%;  
+        }  
+.titu{ 
+  margin:-10px 0 20px 11px; 
+     
+}
+        .service {  
+          
+            border-radius: 25px;  
+            padding: 15px;  
+            margin: 10px 0;
+            color:white;
+            background-color: rgb(15 15 16 / 61%);  
+        } 
+        .contact{
+            color:white;
+        }
+h1, h2, h3, h4, h5, h6 {  
+  font-family: "Montserrat", sans-serif;  
+}  
+
+.efe, .efe2 {  
+  display: flex;
+
+}  
+
+.container2, .container3 {  
+  display: flex;  
+  flex-direction: row;  
+  justify-content: flex-start;  
+  background-color: rgba(32, 29, 29, 0.54);  
+  border-radius: 40px;  
+  width: 97%;  
+  max-width: 100%;  
+  margin: 15px 0 0 6px;  
+}  
+
+.container2 {  
+  height: 100%; /* Añadir punto y coma */  
+  margin-right:10px
+}  
+
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:452%;}
+
+.content2, .content3 {  
+  position: relative;  
+  margin-top: 5%;  
+  margin-left: 5%;  
+  color: white;  
+  margin-right: 20px;  
+}  
+
+.image-container2, .image-container3 {  
+  max-width: 20%; /* Ajustar la imagen al contenedor */  
+  height: auto;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}  
+
+.img-midfade2, .img-midfade3 {  
+  max-width: 100%; /* Ajustar la imagen al contenedor */  
+  height: auto;  
+  margin: auto;  
+}  
+
+h1 {  
+  margin-top: 0; /* Eliminar el margen superior del título */  
+  color: white;  
+}  
+
+
+
+.bg-vid {  
+  position: fixed;  
+  z-index: -990;  /* Nota: un z-index negativo puede causar problemas, úsalo con precaución */  
+  top: 0;  
+  left: 0;  
+  min-width: 100%;  
+  min-height: 100%;  
+  object-fit: cover; /* Asegura que el video cubra todo el elemento */  
+}
+.video-overlay {  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  width: 100%;  
+  height: 100%;  
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */  
+  z-index: -989; /* Asegúrate de que este valor sea mayor que el del video */  
+}
+
+
+
+
+.container {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  margin-top: 10px;  
+}  
+
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin: -0px 50px 10px 100px;
+}  
+
+.nav-item {  
+  margin-right: 15px; /* Espaciado entre elementos de navegación */  
+}  
+
+.nav-link {  
+  text-decoration: none;  
+  color: #333; /* Color del texto de enlaces de navegación */  
+}  
+
+.nav-link:hover {  
+  color: #555; /* Color del texto al pasar el ratón por encima */  
+}  
+
+@media (max-width: 768px) {  
+  .navbar-toggler2 {  
+    display: block; /* Mostrar el botón de menú en tamaños pequeños */  
+
+    box-shadow: none; /* Elimina la sombra */  
+}
+  .as{
+    display:block
+  }
+  .navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left: 53%;
+}  
+
+  .navbar-collapse {  
+    display: block; /* Mostrar el menú desplegable en tamaños pequeños */  
+  }  
+  .navbar-nav {  
+    flex-direction: column; /* Alinear en columna en tamaños pequeños */  
+  }  
+  .nav-item {  
+    margin-right: 0; /* Eliminar espaciado entre elementos en tamaños pequeños */  
+    margin-bottom: 10px; /* Espaciado entre elementos en tamaños pequeños */  
+  }  
+}  
+
+.navbar-nav li a {  
+  margin: 0 30px;  
+  padding: 1px 0;  
+  color: rgba(255, 255, 255, 0.48) !important;  
+}  
+
+.navbar-nav li a:before {  
+  content: "";  
+  display: none;  
+}  
+
+.navbar-nav li.active a {  
+  color: #ffcd00 !important;                     
+}  
+
+i.mdi.mdi-menu::before {  
+  color: white;
+  margin-right:25px;
+ 
+}  
+
+@media (max-width: 414px) and (max-height: 896px) {  
+  .efe {  
+    display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
+    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
+  }  
+  .container2 {  
+    margin-top: 30px;  
+  }  
+  .container3 {  
+    margin-top: 10px;  
+  }  
+  .image-container2, .image-container3 {  
+    max-width: 35%; /* Ajustar la imagen al contenedor */   
+  }  
+}  
+
+.modal {  
+  display: none;  
+  position: absolute;  
+  z-index: 1;  
+  padding-top: 100px;  
+  left: 0;  
+  top: 0;  
+  width: 100%;  
+  height: 100%;  
+  overflow: auto;  
+  background-color: rgba(0, 0, 0, 0.9);  
+}  
+
+.modal-content2 {  
+  margin: auto;  
+  display: block;  
+  max-width: 80%;  
+  max-height: 80%;  
+  margin-top: 35%;  
+  margin-right: 12%;  
+}  
+
+.close {  
+  color: white;  
+  font-size: 30px;  
+  font-weight: bold;  
+  position: absolute;  
+  top: 15px;  
+  right: 5px;  
+  cursor: pointer;  
+  margin-right: 5%;    
+}  
+
+.was {  
+  background-color: transparent;  
+  border: 2px solid #fff;  
+  border-radius: 10px;  
+  color: #fff;  
+  letter-spacing: 1px;  
+  transition: all 0.5s;  
+  font-size: 15px;  
+}  
+
+.social_home li a {  
+  font-size: 24px;  
+  color: #ffffff;  
+  display: inline-block;  
+  width: 100px;  
+  text-align: center;  
+  color: white;  
+} /* Asegúrate de cerrar la llave aquí */  
+
+
+@media (min-width: 901px) {  
+  /* Para pantallas grandes, el menú está siempre visible */  
+  .navbar-collapse {  
+    display: flex; /* Asegúrate de que el menú esté siempre visible */  
+    flex-direction: row; /* Alinear los elementos de nav en fila */  
+  }  
+ 
+  .nav-item {  
+    margin-right: 15px; /* Espaciado entre elementos de navegación */  
+  }  
+}
+/* Estilo básico para el botón navbar-toggler2 */  
+.navbar-toggler2 {   font-size: 29px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    background-color: transparent; /* Fondo transparente */  
+    border: none;                  /* Sin borde */  
+    cursor: pointer;               /* Cambia el cursor al pasar el mouse */  
+    padding: 10px;                 /* Espaciado interno */  
+    outline: none;                 /* Sin contorno al hacer clic */  
+}  
+
+/* Estilo del icono de hamburguesa */  
+.navbar-toggler2 .icon {  
+    display: block;                /* Mostrar como bloque para apilar */  
+    width: 30px;                  /* Ancho del icono */  
+    height: 3px;                  /* Altura de cada barra */  
+    margin: 6px 0;                /* Espaciado entre barras */  
+    background-color: #333;       /* Color de cada barra */  
+    transition: 0.3s;             /* Transición suave para el cambio de estado */  
+}  
+
+/* Efecto al pasar el ratón */  
+.navbar-toggler2:hover .icon {  
+    background-color: #555; /* Color de las barras al pasar el ratón */  
+}  
+
+/* Efecto cuando está activo o se ha presionado */  
+.navbar-toggler2:active .icon {  
+    background-color: #777; /* Color de las barras al hacer clic */  
+}
+@media (min-width: 360px) {  
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:36%;}
+}   .efe {  
+    display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
+    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
+  } 
+
+
+
+@media (min-width: 390px) {  
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:34%;}
+  
+  @media (min-width: 820px) {  
+    
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:4%;}}
+
+    @media (min-width: 1024px) {  
+.navbar-brand.logo img {
+  height: 117px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:60%;}
+      .efe {  
+    display: flex; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
+    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
+  } 
+    }
+      
+      @media (min-width: 768px) {  
+    .navbar-toggler2 {  
+        display: none; /* Ocultar el botón en resoluciones de computadora */  
+    }  
+      }
+@media (min-width: 414px) {  
+.navbar-brand.logo img {
+  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:40%;
+}

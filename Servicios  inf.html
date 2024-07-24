@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leobarber Servisios</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/serv.css">
+    <link rel="stylesheet" href="materialdesignicons.min.css">
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+     
+        
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div class="container">  
+        <a class='navbar-brand logo' href='index_1.html'>  
+            <img src="assets/img/1.png" alt="Mi imagen" height="40">  
+        </a>  
+
+        <button class="navbar-toggler2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+            <i class="mdi mdi-menu"></i>  
+        </button>  
+    </div>  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+        <ul class="navbar-nav ms-auto">  
+            <li class="nav-item">  
+                <a href="index.html" class="nav-link">Inicio</a>  
+            </li>  
+            <li class="nav-item">  
+                <a href="indes.html" class="nav-link">Trabajos</a>  
+            </li>  
+            <li class="nav-item active">  
+                <a href="Servicios  inf.html" class="nav-link">Servicios</a>  
+            </li>  
+        </ul>  
+    </div>  
+</nav>
+
+ 
+  
+<section id="servicios">  
+    <h2 class="titu" style="color: white;">Servicios a domicilio</h2>
+    <div class="service">  
+        <h3>Corte de Cabello</h3>  
+        <p>Actualiza tu estilo conmigo con un cortes de cabello.</p>  
+    </div>  
+    <div class="service">  
+        <h3>Afeitado Clásico</h3>  
+        <p>Disfruta de un afeitado clásico ,cortes a tijeras y mucho mas...</p>  
+    </div>  
+    <div class="service">  
+        <h3>Diseño de Barba</h3>  
+        <p>Definición y diseño de barba a tu medida.</p>  
+    </div> 
+     <div class="service">  
+        <h3>limpieza de Cejas</h3>  
+        <p>Definición y diseño de cejas a tu medida.</p>  
+    </div>  
+
+    <section2 class="as">
+        <section class="contact" id="contacto">  
+    <h2>Contáctame</h2>  
+    <ul class="list-inline">  
+        <li class="list-inline-item">  
+            <a href="https://www.instagram.com/leobarber17k?igsh=MW9pbGw3OXlrNWF5cA==1" onclick="openLink('https://www.instagram.com/leobarber17k?igsh=MW9pbGw3OXlrNWF5cA==1')">  
+                <i class="mdi mdi-instagram"></i> Leobarber17  
+            </a>  
+        </li>  
+        <li class="list-inline-item">  
+            <a href="https://wa.me/584128746822" onclick="openLink('https://wa.me/584128746822')">  
+                <i class="mdi mdi-whatsapp"></i> +58 412-8746822  
+            </a>  
+        </li>  
+    </ul> 
+
+    
+<div class="dos">
+    <img class="leo" src="assets/img/leo.png" alt="">
+    <img class="leo" src="assets/img/leo2.png" alt="">
+</div>
+<div class="dos">
+    <img class="leo" src="assets/img/leo4.png" alt="">
+    <img class="leo" src="assets/img/leo5.png" alt="">
+</div>
+
+<!-- Modal -->
+<div class="modal" id="myModal">
+    <span class="close" id="closeModal">&times;</span>
+    <img class="modal-content2" id="modal-img" src="" alt="Imagen Modal">
+</div>
+
+<script>
+    // Seleccionar el modal y la imagen del modal
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("modal-img");
+    var closeButton = document.getElementById("closeModal");
+    
+    // Obtener todas las imágenes de la clase 'leo'
+    var images = document.querySelectorAll('.leo');
+
+    // Agregar evento 'click' a cada imagen
+    images.forEach(function(image) {
+        image.onclick = function() {
+            modal.style.display = "flex"; // Muestra el modal en modo flex
+            img.src = this.src; // Establece la fuente de la imagen en el modal
+        }
+    });
+
+    // Cerrar el modal al hacer clic en la 'X'
+    closeButton.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Cerrar el modal al hacer clic fuera de la imagen
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+
+</section>
+
+ <div class="content-area">
+        <header>
+            <h1>Cesar Torres</h1>
+            <p class="info">Edad: 18 años | Experiencia en barbería: 3 años</p>
+        </header>
+        
+        <main>
+            <section class="incentive">
+                <h2>¡Transforma tu look con estilo!</h2>
+                <p class="quote">"Un buen corte de cabello no solo cambia tu apariencia, ¡cambia tu actitud!"</p>
+            </section>
+            
+            <section class="contacto">
+                <h3>Contáctame</h3>
+                <p>¿Listo para un nuevo look? ¡No dudes en escribirme!</p>
+                <a href="https://wa.me/5494128746822?text=Hola,%20me%20interesa%20un%20corte%20de%20cabello." class="whatsapp-button">¡Escríbeme por WhatsApp!</a>
+            </section>
+        </main>
+        
+       
+    </div>
+
+      
+
+
+</section2>
+
+
+
+<section class="home-bg section h-100vh" id="home">
+            <video class="bg-vid" autoplay loop muted>
+                <source src="assets/video/video-bg.mp4  " type="video/mp4">
+            </video>
+
+        </section>
+
+        <div class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        </div>
+
+        <section class="qr">
+        <div><img class="qr-img"  src="assets/img/qr.png" alt=""> </div>
+         <div class="j2"> <h1  >Tpago</h1>
+          <p>C.I: 30.939.693</p>
+          <p>TLF: 0412-8746822</p>
+          <p>Banco: Mercantil 0105</p></div>  
+          
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+  
+    
+</body>
+</html>
