@@ -467,7 +467,7 @@ button:focus {
 }
 
 .custom-nav .navbar-brand.logo img {
-  height: 118px;
+  height: 117px;
 }
 .custom-nav .logo {
   color: #fff;
@@ -478,7 +478,7 @@ button:focus {
   .custom-nav {
     margin-top: 0px;
     padding: 10px 0px !important;
-    background-color: #0000006b !important; 
+    background-color: #15151594 !important; 
   }
   .custom-nav .logo {
     color: #111;
@@ -544,7 +544,7 @@ button:focus {
     clip-path: none;
   }
   .custom-nav .navbar-brand.logo img {
-    height: 118px;
+    height: 80px;
 
     margin-top:10px;
   }
