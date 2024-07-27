@@ -1,12 +1,12 @@
-yo@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700");  
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700");  
 
 body {  
   font-family: "Nunito", sans-serif;  
   overflow-x: hidden;  
 }  
 .qr-img{
-  height:160px;
-  margin-top:10%;
+  height:140px;
+  margin-top:20%;
 }
 .qr{
   background-color:white;
@@ -182,9 +182,7 @@ footer {
             padding: 20px;  
             text-align: center;  
         }  
-        nav {  
-            margin-top: 10px;  
-        }  
+       
         nav a {  
             margin: 0 15px;  
             color: white;  
@@ -204,12 +202,12 @@ footer {
             width: 110%;  
         }  
 .titu{ 
-  margin:-10px 0 20px 11px; 
+  margin:20px 0 20px 11px; 
      
 }
         .service {  
           
-            border-radius: 25px;  
+            border-radius: 5px;  
             padding: 15px;  
             margin: 10px 0;
             color:white;
@@ -244,8 +242,8 @@ h1, h2, h3, h4, h5, h6 {
 }  
 
 .navbar-brand.logo img {
-  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:452%;}
+  height: 117px; /* Ajustar el ancho máximo de la imagen del logo */
+  margin-left:20%;}
 
 .content2, .content3 {  
   position: relative;  
@@ -295,6 +293,17 @@ h1 {
   z-index: -989; /* Asegúrate de que este valor sea mayor que el del video */  
 }
 
+.overlay {  
+     position: fixed;  
+  z-index: -990;  /* Nota: un z-index negativo puede causar problemas, úsalo con precaución */  
+  top: 0;  
+  left: 0;  
+  min-width: 100%;  
+  min-height: 100%;  
+  object-fit: cover; /* Asegura que el video cubra todo el elemento */ 
+    background: rgb(0 0 0 / 16%); /* Cambia el valor alfa para ajustar la oscuridad */  
+    z-index: -1; /* Asegura que la superposición esté sobre el video */  
+}  
 
 
 
@@ -324,21 +333,28 @@ h1 {
 .nav-link:hover {  
   color: #555; /* Color del texto al pasar el ratón por encima */  
 }  
+ .navbar-toggler2 {  
+    display: none;}
+/* Estilos para pantallas pequeñas (hasta 768px) */  
+@media (max-width: 768px) {
+  nav {  
+             
+          background-color:#15151594
+          
+        } 
 
-@media (max-width: 768px) {  
+
   .navbar-toggler2 {  
     display: block; /* Mostrar el botón de menú en tamaños pequeños */  
-
-    box-shadow: none; /* Elimina la sombra */  
-}
-  .as{
-    display:block
-  }
-  .navbar-brand.logo img {
-  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left: 53%;
-}  
-
+    box-shadow: none; /* Eliminar la sombra */  
+  }  
+  .as {  
+    display: block;  
+  }  
+  .navbar-brand.logo img {  
+    height: 117px; /* Ajustar el ancho máximo de la imagen del logo */  
+    margin-left: 2%;  
+  }  
   .navbar-collapse {  
     display: block; /* Mostrar el menú desplegable en tamaños pequeños */  
   }  
@@ -351,31 +367,29 @@ h1 {
   }  
 }  
 
+/* Estilos generales para la barra de navegación */  
 .navbar-nav li a {  
   margin: 0 30px;  
   padding: 1px 0;  
   color: rgba(255, 255, 255, 0.48) !important;  
 }  
-
 .navbar-nav li a:before {  
   content: "";  
   display: none;  
 }  
-
 .navbar-nav li.active a {  
-  color: #ffcd00 !important;                     
+  color: #ffcd00 !important;  
 }  
-
 i.mdi.mdi-menu::before {  
-  color: white;
-  margin-right:25px;
- 
+  color: white;  
+  margin-right: 25px;  
 }  
 
+/* Estilos para pantallas de 414px de ancho y 896px de alto */  
 @media (max-width: 414px) and (max-height: 896px) {  
   .efe {  
-    display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
-    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
+    display: block; /* Cambiar de Flex a bloque en esta resolución */  
+    justify-content: space-around; /* Distribuir los contenedores alrededor en el espacio */  
   }  
   .container2 {  
     margin-top: 30px;  
@@ -384,10 +398,11 @@ i.mdi.mdi-menu::before {
     margin-top: 10px;  
   }  
   .image-container2, .image-container3 {  
-    max-width: 35%; /* Ajustar la imagen al contenedor */   
+    max-width: 35%; /* Ajustar la imagen al contenedor */  
   }  
 }  
 
+/* Estilos para el modal */  
 .modal {  
   display: none;  
   position: absolute;  
@@ -400,7 +415,6 @@ i.mdi.mdi-menu::before {
   overflow: auto;  
   background-color: rgba(0, 0, 0, 0.9);  
 }  
-
 .modal-content2 {  
   margin: auto;  
   display: block;  
@@ -409,7 +423,6 @@ i.mdi.mdi-menu::before {
   margin-top: 35%;  
   margin-right: 12%;  
 }  
-
 .close {  
   color: white;  
   font-size: 30px;  
@@ -418,9 +431,10 @@ i.mdi.mdi-menu::before {
   top: 15px;  
   right: 5px;  
   cursor: pointer;  
-  margin-right: 5%;    
+  margin-right: 5%;  
 }  
 
+/* Estilos para el botón "was" */  
 .was {  
   background-color: transparent;  
   border: 2px solid #fff;  
@@ -431,6 +445,7 @@ i.mdi.mdi-menu::before {
   font-size: 15px;  
 }  
 
+/* Estilos para los iconos sociales */  
 .social_home li a {  
   font-size: 24px;  
   color: #ffffff;  
@@ -438,90 +453,32 @@ i.mdi.mdi-menu::before {
   width: 100px;  
   text-align: center;  
   color: white;  
-} /* Asegúrate de cerrar la llave aquí */  
+}  
 
-
+/* Estilos para pantallas grandes (a partir de 901px) */  
 @media (min-width: 901px) {  
-  /* Para pantallas grandes, el menú está siempre visible */  
   .navbar-collapse {  
-    display: flex; /* Asegúrate de que el menú esté siempre visible */  
+    display: flex; /* Asegurarse de que el menú esté siempre visible */  
     flex-direction: row; /* Alinear los elementos de nav en fila */  
   }  
- 
   .nav-item {  
     margin-right: 15px; /* Espaciado entre elementos de navegación */  
   }  
-}
-/* Estilo básico para el botón navbar-toggler2 */  
-.navbar-toggler2 {   font-size: 29px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    
-    background-color: transparent; /* Fondo transparente */  
-    border: none;                  /* Sin borde */  
-    cursor: pointer;               /* Cambia el cursor al pasar el mouse */  
-    padding: 10px;                 /* Espaciado interno */  
-    outline: none;                 /* Sin contorno al hacer clic */  
 }  
 
-/* Estilo del icono de hamburguesa */  
+/* Estilos básicos para el botón navbar-toggler2 */  
+.navbar-toggler2 {  
+  font-size: 29px;  
+  margin-top: 0px;  
+  margin-bottom: 0px;  
+  background-color: transparent; /* Fondo transparente */  
+  border: none; /* Sin borde */  
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */  
+  padding: 10px; /* Espaciado interno */  
+  outline: none; /* Sin contorno al hacer clic */  
+}  
 .navbar-toggler2 .icon {  
-    display: block;                /* Mostrar como bloque para apilar */  
-    width: 30px;                  /* Ancho del icono */  
-    height: 3px;                  /* Altura de cada barra */  
-    margin: 6px 0;                /* Espaciado entre barras */  
-    background-color: #333;       /* Color de cada barra */  
-    transition: 0.3s;             /* Transición suave para el cambio de estado */  
-}  
-
-/* Efecto al pasar el ratón */  
-.navbar-toggler2:hover .icon {  
-    background-color: #555; /* Color de las barras al pasar el ratón */  
-}  
-
-/* Efecto cuando está activo o se ha presionado */  
-.navbar-toggler2:active .icon {  
-    background-color: #777; /* Color de las barras al hacer clic */  
-}
-@media (min-width: 360px) {  
-.navbar-brand.logo img {
-  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:36%;}
-}   .efe {  
-    display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
-    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
-  } 
-
-
-
-@media (min-width: 390px) {  
-.navbar-brand.logo img {
-  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:40%;}
-  
-  @media (min-width: 820px) {  
-    
-.navbar-brand.logo img {
-  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:4%;}}
-
-    @media (min-width: 1024px) {  
-.navbar-brand.logo img {
-  height: 117px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:60%;}
-      .efe {  
-    display: flex; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
-    justify-content: space-around; /* Distribuye los contenedores alrededor en el espacio */  
-  } 
-    }
-      
-      @media (min-width: 768px) {  
-    .navbar-toggler2 {  
-        display: none; /* Ocultar el botón en resoluciones de computadora */  
-    }  
-      }
-@media (min-width: 414px) {  
-.navbar-brand.logo img {
-  height: 137px; /* Ajustar el ancho máximo de la imagen del logo */
-  margin-left:40%;
-}
+  display: block; /* Mostrar como bloque para apilar */  
+  width: 30px; /* Ancho del icono */  
+  height: 3px; /* Altura de cada barra */  
+  margin: 6px;}
