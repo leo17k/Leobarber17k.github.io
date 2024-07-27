@@ -282,7 +282,7 @@ i.mdi.mdi-menu::before {
 }
 @media (min-width: 360px) {  
 .navbar-brand.logo img {
-  height: 117px; /* Ajustar el ancho máximo de la imagen del logo */
+  height: 80px; /* Ajustar el ancho máximo de la imagen del logo */
   margin-left:2%;}
 }   .efe {  
     display: block; /* Cambiar de Flex a bloque en la resolución 414 x 896 */  
@@ -292,13 +292,13 @@ i.mdi.mdi-menu::before {
 
 @media (min-width: 390px) {  
 .navbar-brand.logo img {
-  height: 117px; /* Ajustar el ancho máximo de la imagen del logo */
+  height: 80px; /* Ajustar el ancho máximo de la imagen del logo */
   margin-left:5%;}
   
   @media (min-width: 820px) {  
     
 .navbar-brand.logo img {
-  height: 117px; /* Ajustar el ancho máximo de la imagen del logo */
+  height: 80px; /* Ajustar el ancho máximo de la imagen del logo */
   margin-left:4%;}
 
     @media (min-width: 1024px) {  
