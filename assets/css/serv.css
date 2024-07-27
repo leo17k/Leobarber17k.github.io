@@ -352,7 +352,7 @@ h1 {
     display: block;  
   }  
   .navbar-brand.logo img {  
-    height: 117px; /* Ajustar el ancho máximo de la imagen del logo */  
+    height: 80px; /* Ajustar el ancho máximo de la imagen del logo */  
     margin-left: 2%;  
   }  
   .navbar-collapse {  
