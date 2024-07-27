@@ -478,7 +478,7 @@ button:focus {
   .custom-nav {
     margin-top: 0px;
     padding: 10px 0px !important;
-    /* background-color: #fff !important; */
+    background-color: #0000006b !important; 
   }
   .custom-nav .logo {
     color: #111;
@@ -544,8 +544,8 @@ button:focus {
     clip-path: none;
   }
   .custom-nav .navbar-brand.logo img {
-    height: 138px;
-    margin-left: 40%;
+    height: 118px;
+
     margin-top:10px;
   }
   .about-detail .about-work li::after,
